@@ -1,35 +1,40 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi tarjeta personal</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="targeta">
-        <div class="avatar">🚀</div>
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1e293b;
+    font-family: system-ui, sans-serif;
+}
 
-        <h1>Roberto García</h1>
-        <p class="subtitol">Estudiante de Sistemas Microinformáticos y Redes</p>
+.targeta {
+    background: white;
+    max-width: 420px;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 16px;
+    text-align: center;
+}
 
-        <h2>Sobre mí</h2>
-        <p>Me interesa la informática, los sistemas y aprender nuevas tecnologías. Me gusta practicar y mejorar mis conocimientos.</p>
+.avatar {
+    font-size: 64px;
+}
 
-        <h2>Qué sé hacer</h2>
-        <ul>
-            <li>Instalar y configurar sistemas operativos</li>
-            <li>Utilizar Linux y la terminal</li>
-            <li>Trabajar con Git y GitHub</li>
-        </ul>
+.subtitol {
+    color: #64748b;
+}
 
-        <h2>Enlaces</h2>
-        <a class="boto" href="https://github.com/robertogarcia77">Mi GitHub</a>
+ul {
+    text-align: left;
+}
 
-        <p><a href="projectes.html">Ver mis proyectos</a></p>
-
-        <p><a href="https://aulavirtual.iessarenal.net/mod/glossary/view.php?id=147">Glosario de clase</a></p>
-    </div>
-</body>
-</html>
+.boto {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #2563eb;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+}
 
